@@ -37,6 +37,15 @@ h3 {
   margin: 10px;
 }
 
+img {
+  width: 100%;
+}
+/*
+img {
+  width: 100%;
+}
+*/
+
 /* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
@@ -49,3 +58,5 @@ h3 {
     flex-direction: row;
   }
 }
+
+
