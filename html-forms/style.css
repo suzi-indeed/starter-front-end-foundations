@@ -2,6 +2,25 @@ body {
   padding: 10px;
 }
 
-input {
-  margin: 5px;
+input,
+textarea {
+  border: 1px solid lightsteelblue;
+  width: 100%;
+}
+
+.field {
+  padding-bottom: 20px;
+}
+
+.field.checkbox input {
+  width: initial;
+  vertical-align: middle;
+}
+
+button {
+  border-radius: 20px;
+  border-color: lightsteelblue;
+  background: lightsteelblue;
+  border-style: solid;
+  padding: 5px 10px;
 }

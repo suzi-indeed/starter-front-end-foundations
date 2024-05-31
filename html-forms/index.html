@@ -14,35 +14,40 @@
 
   <body>
     <main>
-
       <form>
-        <div>
+        <div class="field">
           <label for="name">Name:</label>
-          <input id="name" type="text" name="name" />
+          <div>
+            <input id="name" type="text" name="name" autofocus="on" />
+          </div>
         </div>
-        <div>
+
+        <div class="field">
           <label for="email">Email:</label>
-          <input
-            id="email"
-            type="text"
-            name="email"
-            required
-          />
+          <div>
+            <input id="email" type="text" name="email" required />
+          </div>
         </div>
-        <div>
+
+        <div class="field">
           <label for="form-message">Your message:</label>
-          <textarea
-            id="form-message"
-            name="message"
-            autofocus="on"
-            required
-            maxlength="200"
-          ></textarea>
+          <div>
+            <textarea
+              id="form-message"
+              name="message"
+              required
+              maxlength="200"
+            ></textarea>
+          </div>
         </div>
+
+        <div class="field checkbox">
+          <label for="check">Check me:</label>
+          <input id="check" type="checkbox" />
+        </div>
+
         <button type="submit">Submit</button>
       </form>
-
     </main>
   </body>
 </html>
-
